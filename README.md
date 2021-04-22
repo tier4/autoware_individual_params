@@ -14,13 +14,14 @@ Why we manage them in a separate repository are:
 <pre><code>
 individual_params/
 ├── config
-│    └ default # vehicle id
-│       ├ aip_x1 # sensor id
-│       │ ├ sensor_kit_calibration.yaml
-│       │ ├ sensor_calibration.yaml
-│       │ └ ... # other sensor settings yaml
-│       └ ...
-│
-├ CMakeLists.txt
-└ packages.xml
+│   └── default # vehicle id
+│       ├── aip_x1 # sensor name
+│       │   ├── sensor_kit_calibration.yaml
+│       │   ├── sensors_calibration.yaml
+│       │   └── ... # other settings
+│       └── aip_xx1 # sensor name
+│           └── ... # some settings
+├── CMakeLists.txt
+└── package.xml
+
 </code></pre>
