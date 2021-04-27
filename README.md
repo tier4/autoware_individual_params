@@ -11,7 +11,7 @@ Why we manage them in a separate repository are:
 - To rollback only parameters independently from `launcher`.
 
 ## Directory Structure
-<pre><code>
+```shell
 individual_params/
 ├── config
 │   └── default # vehicle id
@@ -23,5 +23,4 @@ individual_params/
 │           └── ... # some settings
 ├── CMakeLists.txt
 └── package.xml
-
-</code></pre>
+```
