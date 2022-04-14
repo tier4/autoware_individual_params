@@ -25,4 +25,7 @@ jobs:
           sync-target-repository: https://github.com/tier4/autoware_individual_params.git
           sync-target-branch: main
           pr-title: "chore: sync upstream"
+          pr-labels: |
+            bot
+            sync-upstream
           auto-merge-method: merge
