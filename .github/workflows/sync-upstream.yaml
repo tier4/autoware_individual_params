@@ -20,7 +20,7 @@ jobs:
         uses: autowarefoundation/autoware-github-actions/sync-branches@v1
         with:
           token: ${{ steps.generate-token.outputs.token }}
-          base-branch: tier4/universe
+          base-branch: main
           sync-pr-branch: sync-upstream
           sync-target-repository: https://github.com/tier4/autoware_individual_params.git
           sync-target-branch: main
