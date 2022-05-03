@@ -1,5 +1,5 @@
 repositories:
-  core/common:
+  autoware_common:
     type: git
     url: https://github.com/autowarefoundation/autoware_common.git
-    version: tier4/proposal
+    version: main
