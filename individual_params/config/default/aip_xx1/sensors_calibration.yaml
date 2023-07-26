@@ -27,3 +27,10 @@ base_link:
     roll: -0.02
     pitch: 0.7281317
     yaw: 3.141592
+  ars408_front_center:
+    x: 3.8
+    y: 0.0
+    z: 0.5
+    roll: 0.0
+    pitch: 0.0
+    yaw: 0.0
