@@ -1,0 +1,92 @@
+sensor_kit_base_link:
+  camera0/camera_link:
+    x: 0.213414
+    y: -0.002740
+    z: -0.035306
+    roll: 0.000221
+    pitch: 0.000624
+    yaw: 0.045530
+  camera1/camera_link:
+    x: -0.205673
+    y: 0.013305
+    z: -0.031298
+    roll: -0.010370
+    pitch: -0.002557
+    yaw: -3.090115
+  camera2/camera_link:
+    x: 0.127105
+    y: 0.639500
+    z: -0.267563
+    roll: -0.004785
+    pitch: 0.356180
+    yaw: 1.107652
+  camera3/camera_link:
+    x: -0.194564
+    y: 0.655817
+    z: -0.273802
+    roll: -0.000962
+    pitch: 0.346506
+    yaw: 2.145370
+  camera4/camera_link:
+    x: 0.182843
+    y: -0.654419
+    z: -0.276171
+    roll: 0.002608
+    pitch: 0.349818
+    yaw: -0.987081
+  camera5/camera_link:
+    x: -0.210616
+    y: -0.663649
+    z: -0.274414
+    roll: -0.011661
+    pitch: 0.363005
+    yaw: -2.019948
+  camera6/camera_link:
+    x: 0.377782
+    y: 0.037646
+    z: -0.200151
+    roll: 0.008620
+    pitch: 0.011122
+    yaw: 0.053211
+  camera7/camera_link:
+    x: 0.347000
+    y: -0.017500
+    z: -0.197800
+    roll: -0.000000
+    pitch: 0.002000
+    yaw: 0.025000
+  velodyne_top_base_link:
+    x: 0.000000
+    y: 0.000000
+    z: 0.000000
+    roll: 0.000000
+    pitch: 0.000000
+    yaw: 1.575000
+  velodyne_left_base_link:
+    x: -0.032289
+    y: 0.558119
+    z: -0.298543
+    roll: -0.014748
+    pitch: 0.713209
+    yaw: 1.606543
+  velodyne_right_base_link:
+    x: 0.040228
+    y: -0.555174
+    z: -0.304580
+    roll: -0.014278
+    pitch: 0.718857
+    yaw: -1.543972
+  gnss_link:
+    x: -0.300700
+    y: 0.000000
+    z: -0.185500
+    roll: 0.000000
+    pitch: -0.000000
+    yaw: 0.000000
+  tamagawa/imu_link:
+    x: 0.000000
+    y: 0.000000
+    z: 0.000000
+    roll: -3.141593
+    pitch: -0.000000
+    yaw: -3.141593

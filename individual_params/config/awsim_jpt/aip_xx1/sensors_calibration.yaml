@@ -1,0 +1,36 @@
+base_link:
+  sensor_kit_base_link:
+    x: 0.662495
+    y: 0.008379
+    z: 2.070276
+    roll: -0.008311
+    pitch: -0.020979
+    yaw: -0.0608
+  livox_front_right_base_link:
+    x: 3.380000
+    y: -0.650000
+    z: 0.424839
+    roll: -0.012893
+    pitch: -0.010323
+    yaw: -0.891593
+  livox_front_left_base_link:
+    x: 3.380000
+    y: 0.672172
+    z: 0.409508
+    roll: 0.010000
+    pitch: -0.008511
+    yaw: 0.852876
+  velodyne_rear_base_link:
+    x: -0.400000
+    y: 0.025000
+    z: 1.650000
+    roll: -0.001400
+    pitch: 0.706000
+    yaw: 3.132185
+  ars408_front_center:
+    x: 3.340751
+    y: -0.072818
+    z: 0.000000
+    roll: 0.000000
+    pitch: -0.000000
+    yaw: 0.002589
