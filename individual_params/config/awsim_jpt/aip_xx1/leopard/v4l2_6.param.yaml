@@ -1,0 +1,8 @@
+/**:
+  ros__parameters:
+    camera_frame_id: "camera6/camera_optical_link"
+    video_device: "/dev/tlr-left"
+    output_encoding: "rgb8"
+    image_size: [2880, 1860]
+    .image_raw.jpeg_quality: 75
+    publish_rate: 10

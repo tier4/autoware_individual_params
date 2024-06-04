@@ -1,0 +1,21 @@
+/**:
+  ros__parameters:
+    cameras: ["camera5"]
+    # If true, there is going to be a publisher with a different topic per camera.
+    # Otherwise a single publisher will be reused for all cameras.
+    one_publisher_per_camera: true
+    camera_settings:
+      camera5:
+        window_width: 1440
+        window_height: 1080
+        fps: 20.0
+        # pixel_format can be one of:
+        # bayer_rggb8, bayer_grbg8, bayer_gbrg8, bayer_bggr8, rgb8, bgr8, mono8
+        pixel_format: bgr8
+        frame_id: camera5/camera_optical_link  # optional
+        device_link_throughput_limit: 100000000  # optional
+        serial_number: "20186402"  # optional
+        use_external_trigger: true
+        trigger_line_source: 2
+        gain_upper_limit: 18.0
+    camera5.image_raw.jpeg_quality: 80
