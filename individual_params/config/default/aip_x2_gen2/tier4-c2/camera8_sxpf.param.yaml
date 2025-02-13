@@ -1,0 +1,9 @@
+/**:
+  ros__parameters:
+    camera_name: "camera8"
+    frame_id: "top_front_center_left/camera_optical_link"
+    channel: 0
+    enable_distortion_correction: 0
+    readout_delay_ms: 95
+    trigger_mode: 1
+    exposure_length_ms: 11

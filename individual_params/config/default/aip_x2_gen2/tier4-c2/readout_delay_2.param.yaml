@@ -1,0 +1,5 @@
+/**:
+  ros__parameters:
+    delay_ms: 20                # designed value: 19.875
+    eval_topic_num: 10          # the number of topics to measure the rate
+    expected_hz: 10             # expected camera frame rate

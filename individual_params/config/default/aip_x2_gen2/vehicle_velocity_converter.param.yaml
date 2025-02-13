@@ -1,0 +1,6 @@
+/**:
+  ros__parameters:
+    speed_scale_factor: 1.0 # [-] Default value
+    velocity_stddev_xx: 0.1  # [m/s] Default value
+    angular_velocity_stddev_zz: 0.1 # Default value
+    frame_id: base_link

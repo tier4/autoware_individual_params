@@ -1,0 +1,7 @@
+/**:
+  ros__parameters:
+    frame_id: "camera4/camera_optical_link"
+    gscam_config: "v4l2src device=/dev/video0 do-timestamp=true ! video/x-raw, width=1920, height=1280, framerate=30/1, format=UYVY ! videoconvert"
+    use_gst_timestamps: True
+    sync_sink: False
+    camera.image_raw.jpeg_quality: 80

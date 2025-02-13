@@ -1,0 +1,9 @@
+/**:
+  ros__parameters:
+    camera_name: "camera10"
+    frame_id: "left_rear/camera_optical_link"
+    channel: 4
+    enable_distortion_correction: 0
+    readout_delay_ms: 62
+    trigger_mode: 1
+    exposure_length_ms: 11

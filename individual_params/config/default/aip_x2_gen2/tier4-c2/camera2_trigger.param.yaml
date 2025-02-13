@@ -1,0 +1,6 @@
+/**:
+  ros__parameters:
+    frame_rate: 10.0
+    phase: 120.0
+    gpio_name: anvil_trigger
+    cpu_core_id: 6
